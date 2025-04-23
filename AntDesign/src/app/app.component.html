@@ -1,0 +1,10 @@
+<body>
+  <ol nz-flex [nzVertical]="isVertical">
+    <li class="flex-item" *ngFor="let item of items">
+      {{item.name}} - ${{item.price}}
+      <button style="margin-right: 1%;" nz-button nzType="primary" nzDanger (click)="removeItem(item)">Remove</button>
+    </li>
+  </ol>
+  
+  <p>Total Price: ${{totalPrice()}}</p>
+</body>
