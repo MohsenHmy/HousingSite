@@ -1,0 +1,13 @@
+<router-outlet></router-outlet>
+<nz-layout>
+  <nz-header>
+    <app-navbar></app-navbar>
+  </nz-header>
+  <nz-content nz-flex [nzVertical]="isVertical" [nzAlign]="'center'">
+    <div class="inner-content">
+      <app-slide></app-slide>
+      <app-services></app-services>
+    </div>
+  </nz-content>
+  <nz-footer>Ant Design ©2020 Implement By Angular</nz-footer>
+</nz-layout>
