@@ -8,11 +8,10 @@ import { NzAlign, NzFlexModule, NzJustify } from 'ng-zorro-antd/flex';
 import { NzSegmentedModule } from 'ng-zorro-antd/segmented';
 
 @Component({
-  selector: 'app-navbar',
-  standalone: true,
-  imports: [NzBreadCrumbModule, NzIconModule, NzMenuModule, NzLayoutModule, FormsModule, NzFlexModule, NzSegmentedModule],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+    selector: 'app-navbar',
+    imports: [NzBreadCrumbModule, NzIconModule, NzMenuModule, NzLayoutModule, FormsModule, NzFlexModule, NzSegmentedModule],
+    templateUrl: './navbar.component.html',
+    styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
 

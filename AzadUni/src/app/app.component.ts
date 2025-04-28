@@ -11,11 +11,10 @@ import { NzFlexModule } from 'ng-zorro-antd/flex';
 import { ServicesComponent } from "./ourServices/services.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, SlideComponent, NzIconModule, NzLayoutModule, NzMenuModule, FormsModule, NzFlexModule, ServicesComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    imports: [CommonModule, RouterOutlet, NavbarComponent, SlideComponent, NzIconModule, NzLayoutModule, NzMenuModule, FormsModule, NzFlexModule, ServicesComponent],
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'AzadUni';
