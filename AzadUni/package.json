@@ -19,13 +19,14 @@
     "@angular/platform-browser-dynamic": "^19.2.8",
     "@angular/router": "^19.2.8",
     "@ctrl/tinycolor": "^4.1.0",
-    "ng-zorro-antd": "^17.4.1",
+    "ng-zorro-antd": "^19.2.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.9",
+    "@angular-devkit/core": "^19.2.9",
     "@angular/cli": "^19.2.9",
     "@angular/compiler-cli": "^19.2.8",
     "@types/jasmine": "~5.1.0",
